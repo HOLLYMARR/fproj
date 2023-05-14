@@ -1,0 +1,13 @@
+---
+proto: Redis
+service: sds.redisproxy.svc
+#server:
+#- ip: 127.0.0.1
+#  port: 6379
+ctimeout: 150
+rtimeout: 200
+wtimeout: 200
+timeout:  500
+persistent_connect: 0
+
+...

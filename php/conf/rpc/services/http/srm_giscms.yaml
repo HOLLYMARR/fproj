@@ -1,0 +1,28 @@
+---
+proto: Http
+#service:
+server:
+  # 升级前
+#  - host: gis-cms-bg.sf-express.com
+  # 升级后的域名测试
+#  - host: gis-int.intsit.sfdc.com.cn:1080
+  # 升级后的域名正式
+  - host: gis-int.int.sfdc.com.cn:1080
+ctimeout: 1000
+rtimeout: 5000
+retry_times: 3
+output_format: json
+
+# 升级后的测试ak
+#ak: e7647efe65cf43aa8136022106c493df
+
+# 升级后的正式ak
+ak: e57acf55780d462ab170e8ba6d9a2045
+
+# url地址
+url:
+  check: /dept/area/special/check
+  specialAreaList: /dept/area/special/list
+  
+...
+

@@ -1,0 +1,13 @@
+---
+proto: Http
+server:
+  - host: itao-api-core.int.sfcloud.local:1080
+ctimeout: 3000
+rtimeout: 3000
+retry_times: 1
+input_format: json
+req-header:
+  - "content-type:application/json"
+proxy_conf: sds_proxy
+http_proxy: http
+...

@@ -1,0 +1,13 @@
+---
+proto: Http
+service: pressmock.inf.svc
+#server:
+#  - host: http://pressmock.inf.svc:8597
+ctimeout: 1000
+rtimeout: 2000
+retry_times: 1
+input_format: json
+req-header:
+  - "content-type:application/json"
+output_format: json
+...

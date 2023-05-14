@@ -1,0 +1,8 @@
+proto: Http
+#service:
+server:
+  - host: https://expandtc.sf-express.com
+ctimeout: 300
+rtimeout: 1000
+retry_times: 1
+

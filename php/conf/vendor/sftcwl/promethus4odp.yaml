@@ -1,0 +1,2 @@
+cli_metrics_enable: 1
+push_url: 127.0.0.1:8107/srm/promethus/pushmetrics

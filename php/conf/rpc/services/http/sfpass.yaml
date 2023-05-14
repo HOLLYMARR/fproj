@@ -1,0 +1,13 @@
+---
+proto: Http
+#service: passport.inf.svc
+server:
+- ip: 10.188.40.12
+  port: 8090
+ctimeout: 1000
+rtimeout: 3000
+wtimeout: 3000
+timeout:  8000
+
+
+...

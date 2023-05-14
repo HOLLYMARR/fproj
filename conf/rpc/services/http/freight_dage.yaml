@@ -1,0 +1,29 @@
+# 仓管快运
+---
+proto: Http
+server:
+  #测试
+  #- host: http://freight-inner-apis.intsit.sfcloud.local:8000
+  #生产
+  - host: http://freight-apis.int.sfcloud.local:8000
+ctimeout: 300
+rtimeout: 300
+wtimeout: 300
+timeout:  300
+input_format: json
+output_format: json
+
+http_proxy: http
+proxy_conf: sf_proxy
+
+# 测试
+#systemKey: c19dc0ee-10b8-14e4-604b-d3bc43b8cd3c
+#accessKey: api2_9a6aa43d-136d-417a-8d44-efe4dab4d5e0
+
+# 生产
+systemKey: 2352cc94-8d42-73d6-7e31-e48e306343f2
+accessKey: api2_37e6600b-4e1b-4617-9183-fbf7b3b2c24f
+
+req-header:
+  - "content-type:application/json"
+...

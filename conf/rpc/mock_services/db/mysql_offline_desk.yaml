@@ -1,0 +1,16 @@
+---
+proto: Mysql
+service: sds-offline-mysql.myproxy.svc
+#server:
+  # - ip: sds-offline-mysql.myproxy.svc
+    #port: 5250
+ctimeout: 500
+rtimeout: 5000
+wtimeout: 5000
+timeout:  7000
+default_db: sds_desk
+username: sds_desk_w
+password: 71EOQI4OP0EoP3l
+retry_times: 2
+is_auto_recon: true
+...

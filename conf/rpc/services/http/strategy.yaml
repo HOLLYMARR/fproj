@@ -1,0 +1,18 @@
+---
+proto: Http
+#service:
+server:
+#- host: public-int-gw.int.sfdc.com.cn:1080
+#  ip: 10.188.40.13
+#  port: 9931
+service: tcscore.strategy.svc
+ctimeout: 1000
+rtimeout: 5000
+retry_times: 3
+input_format: json
+output_format: json
+req-header:
+- "content-type:application/json"
+
+
+...

@@ -1,0 +1,15 @@
+---
+proto: Http
+server:
+  #测试
+#  - host: 10.189.72.51:8080
+  #生产
+  - host: sds-center.sds.svc:8801
+ctimeout: 1000
+rtimeout: 2000
+retry_times: 0
+input_format: json
+output_format: json
+req-header:
+  - "content-type:application/json"
+...

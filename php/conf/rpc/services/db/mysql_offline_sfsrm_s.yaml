@@ -1,0 +1,17 @@
+---
+proto: Mysql
+#service: cat.myproxy.svc
+service: sds-offline-mysql.myproxy.svc
+#server:
+#- ip: 10.188.36.16
+#  port: 3117
+ctimeout: 500
+rtimeout: 1000
+wtimeout: 1000
+timeout:  4000
+default_db: sfsrm
+username: offline_sfsrm_w
+password: oqwSp26BvsIPzxgA
+retry_times: 1
+is_auto_recon: true
+...

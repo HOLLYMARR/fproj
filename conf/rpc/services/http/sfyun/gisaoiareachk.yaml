@@ -1,0 +1,21 @@
+---
+proto: Http
+#service:
+server:
+  - host: gis-apis.int.sfcloud.local:1080
+  #- host: ftkj-gis-apis.intsit.sfcloud.local:1080
+  #- host: gis-int.int.sfdc.com.cn:1080
+  #- host: gis-int.intsit.sfdc.com.cn:1080
+#  ip:
+#  port:
+ctimeout: 5000
+rtimeout: 7000
+retry_times: 1
+ak: 76cf25e640ef4aa988f9f8aeae0b7646
+#ak: e7647efe65cf43aa8136022106c493df
+input_format: json
+req-header:
+  - "content-type:application/json"
+proxy_conf: sds_proxy
+http_proxy: http
+...

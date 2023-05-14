@@ -1,0 +1,25 @@
+---
+proto: Http
+server:
+  # 生产环境
+  - host: sap-ecc.sf-express.com:8105
+
+  #测试环境
+  #- host: qec.sit.sf-express.com:8105
+
+  # 开发环境
+  #- host: 10.202.98.55:54000
+ctimeout: 5000
+rtimeout: 8000
+wtimeout: 8000
+timeout:  8000
+retry_times: 2
+
+input_format: raw
+req-header:
+  - "content-type:application/json"
+output_format: raw
+http_proxy: http
+proxy_conf: sds_proxy
+...
+

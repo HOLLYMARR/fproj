@@ -1,0 +1,11 @@
+---
+#当需要调用sds自身服务但无法使用sfns时使用, 腾讯云服务调用应该用sfns, 所以这里不加代理了
+proto: Http
+server:
+   - host: inner-sds.sf-express.com
+ctimeout: 3000
+rtimeout: 2000
+input_format: formdata
+output_format: json
+retry_times: 1
+...

@@ -1,0 +1,26 @@
+---
+# demo 需要根据具体使用情况进行修改
+# 最终将相关配置修改好后，部署到 ${odp}/conf/vender/sfloc/asynctask.yaml
+
+# 承载async_task和async_download的表 db库的配置文件名
+db_cluster: srm
+# 正在redis 缓存的 redis 配置文件名
+redis_cluster: redis/srm
+
+#支持顺丰云存储
+oos_download: 0
+# cos配置文件相关
+cos:
+  bucket_name: sdsprivate
+  conf_path: srm
+  async_export_file_path: asyncexportfile
+
+# 配置Mirror的ip
+mirror_ips:
+  - 10.188.0.36
+
+# 缓存的一些设置
+cache_setting:
+  # 缓存json结构的内容，开启之后缓存内容会变成json结构，开启的时候要慎重
+  json_content: true
+...

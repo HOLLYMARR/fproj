@@ -1,0 +1,13 @@
+---
+proto: Http
+#service:
+server:
+  # 线下
+  # - host: http://gisbil-access.sit.sf-express.com
+  - host: https://sfapi.sf-express.com
+ctimeout: 1000
+rtimeout: 5000
+retry_times: 1
+output_format: json
+http_proxy: http
+...

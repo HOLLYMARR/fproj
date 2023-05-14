@@ -1,0 +1,20 @@
+---
+proto: Http
+service: newesrp.strategy.svc
+#server:
+#  - host: 10.188.40.18:9911
+#  ip:
+#  port:
+ctimeout: 2000
+rtimeout: 5000
+retry_times: 0
+
+#ak: 76cf25e640ef4aa988f9f8aeae0b7646
+#poi_ak: 3954671e94d747d38c6e1e4b58b4f0a6
+#ak: 3954671e94d747d38c6e1e4b58b4f0a6
+#data_ak: 237feeec175341ab8f9352bc3ee1986a
+input_format: json
+req-header:
+- "content-type:application/json"
+
+...

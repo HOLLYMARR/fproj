@@ -1,0 +1,11 @@
+---
+# 路径规划 sds推送到策略 用于全量刷新路径规划
+proto: Http
+service: proxy-sds2ai-route.sds.svc
+ctimeout: 1500
+rtimeout: 1500
+retry_times: 1
+input_format: json
+req-header:
+  - "content-type:application/json"
+...

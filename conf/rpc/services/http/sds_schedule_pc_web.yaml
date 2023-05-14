@@ -1,0 +1,17 @@
+---
+proto: Http
+#service:
+server:
+  - host: kschedule-pc.sdsweb.svc:9870  #正式
+  #- host: 10.189.72.38:8080
+#  ip:
+#  port:
+ctimeout: 2000
+rtimeout: 2500
+retry_times: 1
+isrestful: 1
+input_format: json
+output_format: json
+req-header:
+  - "content-type:application/json"
+...

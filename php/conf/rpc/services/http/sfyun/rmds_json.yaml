@@ -1,0 +1,14 @@
+---
+proto: Http
+server:
+    #测试
+    #- host: sgs-int-apigw.intsit.sfdc.com.cn:1080
+    #生产
+    - host: sgs-int-apigw.int.sfdc.com.cn:1080
+ctimeout: 3000
+rtimeout: 3000
+retry_times: 3
+input_format: JSON
+proxy_conf: sds_proxy
+http_proxy: http
+...

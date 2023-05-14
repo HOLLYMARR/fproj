@@ -1,0 +1,10 @@
+---
+proto: Http
+service: sdsros.strategy.svc
+ctimeout: 1000
+rtimeout: 2000
+retry_times: 0
+input_format: json
+req-header:
+  - "content-type:application/json"
+...

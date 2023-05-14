@@ -1,0 +1,17 @@
+# sds审核服务时间通过之后通知ptcs
+---
+proto: Http
+server:
+#  - host: http://mcs-plm-core-apis.intsit.sfcloud.local:8000
+  - host: http://mcs-plm-core-apis.int.sfcloud.local:8000
+ctimeout: 4000
+rtimeout: 4000
+wtimeout: 4000
+timeout:  4000
+input_format: json
+output_format: json
+req-header:
+  - "content-type:application/json"
+proxy_conf: sds_proxy
+http_proxy: http
+...

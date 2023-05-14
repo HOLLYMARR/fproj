@@ -1,0 +1,18 @@
+---
+proto: Http
+#service:
+server:
+  - host: http://cemp-int-apigw-apis.int.sfcloud.local:8000
+# - host: http://esg-cemp-core-server-apis.intsit.sfcloud.local:8000
+#  ip:
+#  port:
+ctimeout: 3000
+rtimeout: 2000
+retry_times: 1
+input_format: json
+output_format: json
+req-header:
+  - "content-type:application/json"
+proxy_conf: sds_proxy
+http_proxy: http
+...

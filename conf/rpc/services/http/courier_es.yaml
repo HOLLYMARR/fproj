@@ -1,0 +1,14 @@
+---
+# 存储小哥坐标的es服务
+
+proto: Http
+service: gz.sds-1.es.svc
+#server:
+#- ip: 10.188.36.14
+#  port: 8500
+ctimeout: 200
+rtimeout: 1000
+input_format: RAW
+output_format: json
+
+...

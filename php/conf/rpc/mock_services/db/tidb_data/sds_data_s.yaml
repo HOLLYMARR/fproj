@@ -1,0 +1,16 @@
+---
+proto: Mysql
+service:  sdsdatatidb.myproxy.svc
+#server:
+  # - ip: sdsdatatidb.myproxy.svc
+    #port: 4103
+ctimeout: 500
+rtimeout: 1000
+wtimeout: 1000
+timeout:  4000
+default_db: sds_data
+username: sds_data_w
+password: dEOFQKx46kJQkttd
+retry_times: 0
+is_auto_recon: true
+...

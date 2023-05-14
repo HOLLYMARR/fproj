@@ -1,0 +1,20 @@
+---
+proto: Http
+server:
+#测试环境
+#  - host: http://10.203.48.170:8080
+#生产环境
+  - host: http://skss-shard.sf-express.com
+ctimeout: 5000
+rtimeout: 8000
+wtimeout: 8000
+timeout:  8000
+retry_times: 2
+
+input_format: json
+req-header:
+  - "content-type:application/json"
+output_format: json
+http_proxy: http
+proxy_conf: sf_proxy
+...

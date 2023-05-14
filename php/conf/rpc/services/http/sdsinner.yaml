@@ -1,0 +1,10 @@
+---
+proto: Http
+server:
+   - host: inner-sds.sf-express.com
+ctimeout: 3000
+rtimeout: 2000
+input_format: formdata
+output_format: json
+retry_times: 1
+...

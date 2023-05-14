@@ -1,0 +1,22 @@
+---
+http:
+  gz:
+    - ip: net-proxy-common.sftcwl.com
+      port: 8080
+  sh:
+    - ip: net-proxy-common.sftcwl.com
+      port: 8080
+  gz6:
+    - ip: net-proxy-common.sftcwl.com
+      port: 8080
+https:
+  gz:
+    - ip: net-proxy-common.sftcwl.com
+      port: 8080
+  sh:
+    - ip: net-proxy-common.sftcwl.com
+      port: 8080
+  gz6:
+    - ip: net-proxy-common.sftcwl.com
+      port: 8080
+...

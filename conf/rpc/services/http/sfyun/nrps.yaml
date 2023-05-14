@@ -1,0 +1,14 @@
+---
+proto: Http
+server:
+  - host: eos-nrps-core-int.sf-express.com
+ctimeout: 3000
+rtimeout: 3000
+retry_times: 3
+input_format: json
+output_format: json
+req-header:
+  - "content-type:application/json"
+proxy_conf: sds_proxy
+http_proxy: http
+...

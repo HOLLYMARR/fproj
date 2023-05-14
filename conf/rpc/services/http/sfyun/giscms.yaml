@@ -1,0 +1,14 @@
+---
+proto: Http
+#service:
+server:
+  # 升级前
+  - host: gis-cms-bg.sf-express.com
+ctimeout: 1000
+rtimeout: 5000
+retry_times: 3
+output_format: json
+proxy_conf: sds_proxy
+http_proxy: http
+...
+

@@ -1,0 +1,14 @@
+# api市场-快运
+---
+proto: Http
+server:
+  - host: http://public-api-market-apis.int.sfcloud.local:8000
+ctimeout: 200
+rtimeout: 200
+wtimeout: 200
+timeout:  200
+input_format: json
+output_format: json
+req-header:
+  - "content-type:application/json"
+...

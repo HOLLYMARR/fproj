@@ -1,0 +1,10 @@
+---
+proto: Http
+server:
+  - host: gis-aos-base.sf-express.com
+#  - host: gis-aos-base.sit.sf-express.com #线下
+ctimeout: 1000
+rtimeout: 4000
+retry_times: 2
+
+...

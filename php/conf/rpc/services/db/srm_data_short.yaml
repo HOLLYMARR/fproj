@@ -1,0 +1,17 @@
+---
+proto: Mysql
+#service: cat.myproxy.svc
+service: sds-offline-mysql.myproxy.svc
+#server:
+#- ip: 10.188.36.16
+#  port: 3117
+ctimeout: 300
+rtimeout: 500
+wtimeout: 500
+timeout:  700
+default_db: sds_data
+username: sds_data_w
+password: NEK2B0rt82xgy
+retry_times: 2
+is_auto_recon: true
+...

@@ -1,0 +1,17 @@
+---
+proto: Mysql
+#service: cat.myproxy.svc
+service: sdscore2.myproxy.svc
+#server:
+#- ip: 10.188.36.16
+#  port: 3117
+ctimeout: 500
+rtimeout: 2000
+wtimeout: 2000
+timeout:  2000
+default_db: srm_core
+username: srm_core_w
+password: D4V8YETuShcwHDOI
+retry_times: 1
+is_auto_recon: true
+...

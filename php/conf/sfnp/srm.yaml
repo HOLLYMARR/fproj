@@ -1,0 +1,18 @@
+---
+# 正式
+host: http://unp-apis.int.sfcloud.local:1080/unp/notice/single
+# 测试
+#host: http://unp-apis.intsit.sfcloud.local:1080/unp/notice/single
+
+accessId: HHHpOqYC
+accessToken: 614792099a584e2f8f59ee2ef7d32796
+
+ctimeout: 10000
+rtimeout: 10000
+wtimeout: 10000
+timeout:  10000
+retry_times: 3
+
+proxy_conf: sds_proxy
+http_proxy: http
+...

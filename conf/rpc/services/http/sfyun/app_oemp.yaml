@@ -1,0 +1,17 @@
+# 运作助手 -- 对接顺丰云API市场
+---
+proto: Http
+server:
+  #- host: eos-oemp-apis.intsit.sfcloud.local:1080
+  - host: eos-oemp-apis.int.sfcloud.local:8000
+ctimeout: 4000
+rtimeout: 4000
+wtimeout: 4000
+timeout:  4000
+input_format: json
+output_format: json
+req-header:
+  - "content-type:application/json"
+proxy_conf: sds_proxy
+http_proxy: http
+...

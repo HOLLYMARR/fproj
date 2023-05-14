@@ -1,0 +1,16 @@
+---
+proto: Http
+#service:
+server:
+- host: trtms-ground-int-gw.int.sfdc.com.cn:1080
+#  ip:
+#  port:
+ctimeout: 10000
+rtimeout: 10000
+retry_times: 20
+input_format: json
+req-header:
+- "content-type:application/json"
+
+
+...

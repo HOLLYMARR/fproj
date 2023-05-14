@@ -1,0 +1,15 @@
+---
+proto: Http
+#service:
+server:
+  - host: http://public-int-gw.int.sfdc.com.cn:1080  #正式
+#  - host: http://public-int-gw.intsit.sfdc.com.cn:1080  #测试
+#  ip:
+#  port:
+ctimeout: 2000
+rtimeout: 2500
+retry_times: 1
+syskey: 5f477aece3e1f20c93019498 #正式
+#syskey: 5f452110825cf20c31cf178a #测试
+isrestful: 1
+...

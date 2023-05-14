@@ -1,0 +1,17 @@
+---
+proto: Mysql
+service: sds.myproxy.svc
+#server:
+  # - ip: sds.myproxy.svc
+    #port: 5239
+ctimeout: 500
+rtimeout: 5000
+wtimeout: 5000
+timeout:  7000
+default_db: head_manage
+username: head_manage_w
+password: m302SNuy9siy8Z7K
+retry_times: 1
+is_auto_recon: true
+enhance_metric: 1
+...

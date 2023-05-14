@@ -1,0 +1,24 @@
+---
+proto: Http
+#service:
+server:
+  # 生产
+  #- host: hr-new.sf-express.com
+  - host: hr-new.int.sfdc.com.cn
+  # 本地
+  #- ip: 100.119.118.133
+  #  port: 8085
+  # 测试
+  #- host: hr-new.sit.sf-express.com
+ctimeout: 10000
+rtimeout: 10000
+retry_times: 20
+  #input_format: json
+#req-header:
+#- "content-type:application/json"
+http_proxy: http
+proxy_conf: proxy
+input_format: raw
+
+
+...

@@ -1,0 +1,26 @@
+---
+proto: Http
+# 正式
+#service: datamart.da.svc
+# 测试
+#server:
+server:
+  - host: https://yi.yshoufa.com
+#  - ip: 10.188.40.120
+#    port: 8980
+ctimeout: 2000
+rtimeout: 3000
+wtimeout: 3000
+timeout:  5000
+retry_times: 2
+#
+input_format: json
+req-header:
+  - "content-type:application/json"
+output_format: json
+http_proxy: http
+
+...
+
+
+#

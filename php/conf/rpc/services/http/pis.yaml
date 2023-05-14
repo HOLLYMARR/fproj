@@ -1,0 +1,14 @@
+---
+proto: Http
+#service:
+server:
+  - host: public-int-gw-bdp.int.sfdc.com.cn:1080
+#  ip:
+#  port:
+ctimeout: 1000
+rtimeout: 1500
+input_format: json
+req-header:
+  - "content-type:application/json"
+
+...

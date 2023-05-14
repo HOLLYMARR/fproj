@@ -1,0 +1,23 @@
+---
+proto: Http
+# 正式
+service: gz.adhoc-sds.da.svc
+# uat
+#server:
+#  - ip: 10.188.32.5
+#    port: 8890
+# 测试
+#server:
+#  - ip: 10.188.40.120
+#    port: 8890
+ctimeout: 4000
+rtimeout: 8000
+wtimeout: 8000
+timeout:  8000
+retry_times: 2
+
+input_format: json
+req-header:
+  - "content-type:application/json"
+output_format: json
+...

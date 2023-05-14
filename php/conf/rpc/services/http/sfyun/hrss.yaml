@@ -1,0 +1,18 @@
+---
+proto: Http
+#service:
+server:
+  - host: sfhrss.sf-express.com
+#  - host: sfhrss.sit.sf-express.com
+#  ip:
+#  port:
+ctimeout: 30000
+rtimeout: 30000
+retry_times: 0
+input_format: json
+output_format: json
+req-header:
+  - "content-type:application/json"
+proxy_conf: sds_proxy
+http_proxy: http
+...

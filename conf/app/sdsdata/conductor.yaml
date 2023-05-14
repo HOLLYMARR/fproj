@@ -1,0 +1,7 @@
+---
+# 切换环境 dev/prod
+environment: prod
+# workflow 配置
+workflow:
+  triggerAreaChangeRecommendation: worker_precise_investment_workflow
+...

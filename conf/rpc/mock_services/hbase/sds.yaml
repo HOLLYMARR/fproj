@@ -1,0 +1,15 @@
+---
+server:
+  - 10.189.4.2:9090
+  - 10.189.4.14:9090
+persist: 0
+# 发送超时时间 毫秒
+send_timeout: 4000
+# 接收超时时间 毫秒
+recv_timeout: 4000
+#  framed 或者 buffered
+transport: framed
+# binary or  compact or binary_accelerated
+protocol: compact
+connect_retry: 1 #连接时重试次数
+...

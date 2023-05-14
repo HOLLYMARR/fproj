@@ -1,0 +1,14 @@
+---
+proto: Http
+service: sp-ros.strategy.svc
+#server:
+#- ip: 10.189.73.77
+#  port: 8899
+ctimeout: 10000
+rtimeout: 10000
+wtimeout: 10000
+timeout:  10000
+input_format: json
+output_format: json
+isrestful: 1;
+...

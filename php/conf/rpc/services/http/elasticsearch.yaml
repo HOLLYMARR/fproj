@@ -1,0 +1,21 @@
+---
+#存储aoi矩阵数据的es服务
+proto: Http
+service: gz.sds-1.es.svc
+# server是线下环境，如果线下测试注释service，线上参照此配置
+#server:
+#- ip: 10.188.36.16
+#  port: 9200
+ctimeout: 1000
+rtimeout: 1000
+wtimeout: 1000
+timeout:  2000
+input_format: RAW
+output_format: json
+retry_times: 1
+isrestful: 1
+req-header:
+    - "Content-Type:application/json"
+
+
+...

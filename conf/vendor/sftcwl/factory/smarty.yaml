@@ -1,0 +1,12 @@
+---
+group1:
+  template_dir: template/
+  compile_dir: data/smarty/compile/
+  compile_check: "1"
+  config_dir: data/smarty/config/
+  config_load: ""
+  plugins_dir: ""
+  left_delimiter: '{%'
+  right_delimiter: '%}'
+  ip_preg: '@172\.22\..+@'
+...

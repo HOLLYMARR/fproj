@@ -1,0 +1,22 @@
+---
+http:
+  gz:
+    - ip: net-proxy-sds.sf-express.com
+      port: 1080
+  sh:
+    - ip: net-proxy-sds.sf-express.com
+      port: 1080
+  gz6:
+    - ip: net-proxy-sds.sf-express.com
+      port: 1080
+https:
+  gz:
+    - ip: net-proxy-sds.sf-express.com
+      port: 1080
+  sh:
+    - ip: net-proxy-sds.sf-express.com
+      port: 1080
+  gz6:
+    - ip: net-proxy-sds.sf-express.com
+      port: 1080
+...

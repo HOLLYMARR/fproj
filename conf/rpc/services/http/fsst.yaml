@@ -1,0 +1,17 @@
+---
+proto: Http
+server:
+# 测试环境
+#  - host: public-int-gw.intsit.sfdc.com.cn:1080
+# 正式环境
+  - host: xmf-gw-int-apis.int.sfcloud.local:8000
+ctimeout: 200
+rtimeout: 300
+retry_times: 0
+#http_proxy: http
+#proxy_conf: proxy
+input_format: json
+req-header:
+  - "content-type:application/json"
+#output_format: json
+...

@@ -1,0 +1,14 @@
+# 运作助手 -- 对接顺丰云API市场
+---
+proto: Http
+server:
+  - host: http://public-api-market-apis.int.sfcloud.local:8000
+ctimeout: 4000
+rtimeout: 4000
+wtimeout: 4000
+timeout:  4000
+input_format: json
+output_format: json
+req-header:
+  - "content-type:application/json"
+...

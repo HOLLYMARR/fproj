@@ -1,0 +1,18 @@
+---
+proto: Http
+#service:
+server:
+   - host: uisqs-apis.int.sfcloud.local:8000
+  # - host: uisqs-apis.intsit.sfcloud.local:8000
+#  ip:
+#  port:
+#http_proxy: http
+#proxy_conf: proxy
+ctimeout: 300
+rtimeout: 2000
+retry_times: 1
+input_format: json
+req-header:
+  - "content-type:application/json"
+
+...

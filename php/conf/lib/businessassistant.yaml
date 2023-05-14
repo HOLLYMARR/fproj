@@ -1,0 +1,16 @@
+---
+# 切换环境 dev/prod
+environment: prod
+# 请求路径的配置
+uri:
+  token: /oauth2/token
+  send_im: /ump-biz/platform/send
+# appId
+app_id:
+  dev: 266fee338c48495fbbc88694bfe124ba
+  prod: 4224ee1b3a5e43ada954a1d02fbf63ae
+# appSecret
+app_secret:
+  dev: bcfd2baca4584bf1878ee3829c13c7a6
+  prod: 8488b47309d543a0b8cdafc62154c3c8
+...

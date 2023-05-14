@@ -1,0 +1,15 @@
+---
+proto: Http
+#service:
+server:
+  - host: bpush-alarm.sftcwl.com
+#  ip:
+#  port:
+ctimeout: 1000
+rtimeout: 2000
+retry_times: 2
+input_format: json
+req-header:
+  - "content-type:application/json"
+
+...

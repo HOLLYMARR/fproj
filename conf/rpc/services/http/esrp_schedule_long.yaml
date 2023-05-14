@@ -1,0 +1,12 @@
+---
+proto: Http
+service: gz.newesrp.strategy.svc
+ctimeout: 3000
+rtimeout: 10000
+retry_times: 3
+
+input_format: json
+req-header:
+- "content-type:application/json"
+
+...

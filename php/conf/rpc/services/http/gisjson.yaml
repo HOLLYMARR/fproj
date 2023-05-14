@@ -1,0 +1,18 @@
+---
+proto: Http
+#service:
+server:
+  - host: gis-int.int.sfdc.com.cn:1080
+#  ip:
+#  port:
+ctimeout: 2000
+rtimeout: 5000
+retry_times: 1
+ak: 76cf25e640ef4aa988f9f8aeae0b7646
+data_ak: 237feeec175341ab8f9352bc3ee1986a
+#poi_ak: 864bdc303a714f8897e6a8afe2d3793b
+input_format: json
+req-header:
+- "content-type:application/json"
+
+...

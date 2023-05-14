@@ -1,0 +1,8 @@
+---
+#请将此配置文件放置到conf/vendor/sftcwl/passport/目录下
+#host: https://passic.sf-express.com
+#inner-host: https://inner-passic.sf-express.com
+#以下为测试环境地址:
+host: http://passic.sftcwl.com
+inner-host: https://inner-passic.sf-express.com
+...

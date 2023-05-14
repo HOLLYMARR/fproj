@@ -1,0 +1,16 @@
+---
+proto: Http
+#线上
+service: conductor-sds.inf.svc
+#线下
+#server:
+#  - host: 10.188.40.218:8846
+ctimeout: 10000
+rtimeout: 10000
+retry_times: 0
+isrestful: 1
+input_format: json
+req-header:
+  - "content-type:application/json"
+
+...

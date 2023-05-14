@@ -1,0 +1,12 @@
+#rename this file and put it in odp/conf/vendor/sftcwl/cos/
+app_id: 1254389369
+region: ap-guangzhou
+secret_key: b1FIPI5iAWs323aw77wrYylXOch8nXhx
+secret_id: AKIDKakAiMiKlH4zmgL0ealkmutxrqUMhohh
+
+hosts:
+  internal:
+    api: srm-audio-1254389369.cos.ap-guangzhou.myqcloud.com
+default_host: internal
+proxy_conf: proxy
+http_proxy: http

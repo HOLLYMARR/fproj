@@ -1,0 +1,16 @@
+---
+proto: Http
+
+server:
+  # 线下
+  #  - host: https://t-ptdj.huaqinits.com # 测试
+  - host: https://ptdj.huaqinits.com # 正式
+ctimeout: 3000
+rtimeout: 8000
+retry_times: 0
+http_proxy: https
+proxy_conf: proxy
+input_format: raw
+req-header:
+  - "content-type:text/plain"
+...

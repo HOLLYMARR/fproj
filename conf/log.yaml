@@ -1,0 +1,8 @@
+---
+level: "16"
+auto_rotate: "0"
+use_sub_dir: "1"
+rpc_sharding_num: 8
+app_sharding_num: 8
+format: '%L: %t [%f:%N] errno[%E] logId[%l] uri[%U] entrance[%R] refer[%{referer}i] cookie[%{cookie}i] idc[%{x_bd_idc}i] %S %M'
+...

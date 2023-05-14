@@ -1,0 +1,14 @@
+---
+# loc 机器集群
+proto: Http
+server:
+  - ip: 10.242.4.23
+    port: 8731
+ctimeout: 5000
+rtimeout: 5000
+wtimeout: 5000
+timeout:  5000
+proxy_conf: sds_proxy
+http_proxy: http
+
+...

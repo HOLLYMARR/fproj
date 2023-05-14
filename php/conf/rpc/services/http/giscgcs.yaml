@@ -1,0 +1,14 @@
+---
+proto: Http
+#service:
+server:
+  - host: gis-gdpp-oper.sf-express.com
+#  ip:
+#  port:
+ctimeout: 1000
+rtimeout: 2000
+retry_times: 2
+#ak: 76cf25e640ef4aa988f9f8aeae0b7646
+#poi_ak: 3954671e94d747d38c6e1e4b58b4f0a6
+
+...

@@ -1,0 +1,11 @@
+---
+# 切换环境 dev/prod
+environment: prod
+# workflow 配置
+hive_task:
+  sys_code: EOS-SDS-CORE
+  token: H++/ve+/vUxM77+977+9D++/vUZ577+9Ku+/vQ==
+  cluster_id: 0
+  wait: 1
+  detect_cycle: 30
+...

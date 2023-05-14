@@ -1,0 +1,13 @@
+---
+proto: Redis
+service: sds-route.redisproxy.svc
+#server:
+#  - ip: sds-route.redisproxy.svc
+#    port: 7966
+ctimeout: 200
+rtimeout: 500
+wtimeout: 500
+timeout:  1000
+persistent_connect: 0
+
+...

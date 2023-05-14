@@ -1,0 +1,21 @@
+---
+proto: Http
+server:
+#测试环境
+#  - host: http://partner-api-apis.intsit.sfcloud.local:8000
+#生产环境
+  - host: http://skss-tps-apis.int.sfcloud.local:8000
+ctimeout: 200
+rtimeout: 100
+wtimeout: 100
+timeout:  100
+retry_times: 0
+
+http_proxy: http
+proxy_conf: sf_proxy
+
+input_format: json
+req-header:
+  - "content-type:application/json"
+output_format: json
+...

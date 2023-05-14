@@ -1,0 +1,20 @@
+---
+proto: Http
+host: http://pressmock.inf.svc
+
+# 正式
+accessId: HqilPXji
+accessToken: 3b1fdcee33a54690a6038d8a8b40746b
+# 测试
+#accessId: nPlm48ws
+#accessToken: f93a7a1e0635424c9d0cc1404ecb2e33
+
+ctimeout: 1000
+rtimeout: 1000
+wtimeout: 1000
+timeout:  1000
+retry_times: 1
+
+proxy_conf: sds_proxy
+http_proxy: http
+...

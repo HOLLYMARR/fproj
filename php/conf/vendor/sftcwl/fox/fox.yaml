@@ -1,0 +1,11 @@
+---
+# demo 需要根据具体使用情况进行修改
+# 最终将相关配置修改好后，部署到 ${odp}/conf/vender/sftcwl/fox/fox.yaml
+
+
+# 承载 redis 缓存的 redis 配置文件名
+redis_cluster: redis/havitms 
+
+rediskey: grove:fox
+
+http_cluster: grove

@@ -1,0 +1,18 @@
+---
+proto: Http
+#service:
+server:
+  - host: public-int-gw.int.sfdc.com.cn:1080
+#  ip:
+#  port:
+ctimeout: 12000
+rtimeout: 12000 # 因为上游使用的es查询,数据量大的时候容易超时。上游超时时间10s。因为是脚本同步数据用,这里超时时间设置大点。
+retry_times: 7
+ak: eabd2f2e-31b6-4f12-9024-4841edc08c44
+secret: 85280383-693b-43ba-99eb-54578889e080
+input_format: json
+req-header:
+  - "content-type:application/json"
+
+
+...

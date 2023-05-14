@@ -1,0 +1,10 @@
+---
+proto: Es
+server:
+  - ip: 10.188.36.14
+    port: 9211
+timeout: 1000
+service_ebuild_tag:
+...
+
+

@@ -1,0 +1,13 @@
+---
+#存储aoi矩阵数据的es服务
+proto: Es
+service: gz.sds-1.es.svc
+# server是线下环境，如果线下测试注释service，线上参照此配置
+#server:
+#- ip: 10.188.36.16
+#  port: 9200
+timeout:  2000
+retry_connect_times: 2
+retry_read_times: 2
+version: 6
+...

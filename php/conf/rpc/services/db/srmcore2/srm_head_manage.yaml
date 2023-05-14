@@ -1,0 +1,13 @@
+---
+proto: Mysql
+service: sdscore2.myproxy.svc
+ctimeout: 500
+rtimeout: 2000
+wtimeout: 2000
+timeout:  2000
+default_db: head_manage
+username: head_manage_w
+password: bOw1IKP4KIE5kt
+retry_times: 1
+is_auto_recon: true
+...

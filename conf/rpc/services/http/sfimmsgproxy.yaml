@@ -1,0 +1,18 @@
+---
+proto: Http
+#service:
+server:
+  - host: public-int-gw.int.sfdc.com.cn:1080
+#  ip:
+#  port:
+ctimeout: 10000
+rtimeout: 10000
+retry_times: 20
+input_format: json
+http_proxy: http
+proxy_conf: proxy
+req-header:
+  - "content-type:application/json"
+
+
+...

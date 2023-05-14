@@ -1,0 +1,16 @@
+---
+proto: Http
+server:
+  - host: sfecp-portal.sf-express.com
+ctimeout: 3000
+rtimeout: 2000
+retry_times: 3
+input_format: json
+output_format: json
+http_proxy: http
+proxy_conf: sf_proxy
+appSign: e9e9ad2e4ccd4694a3d2ff11f212a9a9
+req-header:
+  - "content-type:application/json"
+  - "appSign: e9e9ad2e4ccd4694a3d2ff11f212a9a9"
+...

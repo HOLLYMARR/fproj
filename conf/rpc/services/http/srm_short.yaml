@@ -1,0 +1,14 @@
+---
+proto: Http
+service: sds-online.lta.svc
+#server:
+#  - ip: 127.0.0.1
+#    port: 1081
+ctimeout: 200
+rtimeout: 2000
+input_format: json
+output_format: json
+retry_times: 1
+req-header:
+  - "content-type:application/json"
+...

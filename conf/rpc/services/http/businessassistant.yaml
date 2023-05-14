@@ -1,0 +1,14 @@
+---
+proto: Http
+server:
+  # 测试
+#  - host: http://open-api-funsionwork.sit.sf-express.com:8080
+  # 正式
+   - host: https://open-api-funsionwork.sf-express.com
+ctimeout: 2000
+rtimeout: 2000
+wtimeout: 2000
+timeout:  2000
+output_format: json
+retry_times: 1
+...

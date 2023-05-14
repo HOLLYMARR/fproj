@@ -1,0 +1,15 @@
+---
+proto: Http
+# 正式
+service: adhocserver.da.svc
+ctimeout: 2000
+rtimeout: 8000
+wtimeout: 8000
+timeout:  8000
+retry_times: 1
+
+input_format: json
+req-header:
+  - "content-type:application/json"
+output_format: json
+...

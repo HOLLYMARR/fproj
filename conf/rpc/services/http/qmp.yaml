@@ -1,0 +1,20 @@
+---
+proto: Http
+server:
+#  - host: http://qmp.int.sfcloud.local:1080
+  - host: http://qmp-gateway-apis.int.sfcloud.local:8000
+#  - host: http://qmp-gateway-eos-qmp-core-apis.intsit.sfcloud.local:8000
+
+ctimeout: 3000
+rtimeout: 3000
+wtimeout: 3000
+timeout:  3000
+input_format: json
+output_format: json
+
+http_proxy: http
+proxy_conf: sf_proxy
+
+req-header:
+  - "content-type:application/json"
+...

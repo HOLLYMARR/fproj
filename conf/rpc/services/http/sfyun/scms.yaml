@@ -1,0 +1,16 @@
+---
+# 安保系统
+proto: Http
+server:
+  - host: http://scms-web.sf-express.com
+ctimeout: 3000
+rtimeout: 3000
+wtimeout: 3000
+timeout:  3000
+retry_times: 0
+input_format: json
+proxy_conf: sds_proxy
+http_proxy: http
+req-header:
+  - "content-type:application/json"
+...

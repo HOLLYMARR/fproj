@@ -1,0 +1,17 @@
+---
+proto: Http
+server:
+# 测试环境
+#  - host: eos-toap-core-apis.intsit.sfcloud.local:8000
+# 正式环境
+  - host: eos-toap-core-apis.int.sfcloud.local:8000
+ctimeout: 1000
+rtimeout: 2000
+retry_times: 0
+#http_proxy: http
+#proxy_conf: proxy
+input_format: json
+req-header:
+  - "content-type:application/json"
+output_format: json
+...

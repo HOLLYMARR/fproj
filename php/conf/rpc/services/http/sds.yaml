@@ -1,0 +1,11 @@
+---
+# loc 机器集群
+proto: Http
+service: sds-online.lta.svc
+
+ctimeout: 5000
+rtimeout: 5000
+wtimeout: 5000
+timeout:  5000
+
+...

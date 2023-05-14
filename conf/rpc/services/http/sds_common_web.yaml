@@ -1,0 +1,14 @@
+---
+proto: Http
+#service:
+server:
+   - host: common.sdsweb.svc:8737  #正式
+  #- host: http:10.189.72.38:8080  #测试
+#  ip:
+#  port:
+ctimeout: 2000
+rtimeout: 2500
+retry_times: 1
+isrestful: 1
+output_format: json
+...

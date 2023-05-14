@@ -1,0 +1,21 @@
+clusters:
+  - name: srm # 集群名称 这个文件应该放到rpc/下
+    dbname: sfsrm # 数据库名称
+    tables:
+      - name: courier_tag_map # 表名称
+        # 0 默认模式：正常流量走常规库，压测的读/写流量走影子库
+        # 1 读主写影模式：正常流量走常规库，压测的读流量走常规库，压测的写流量走影子库
+        mode: 1
+      - name: scheduling_task_details
+        mode: 1
+      - name: scheduling_task_detail_cache
+        mode: 1
+  - name: srmcore2/sfsrm # 集群名称
+    dbname: sfsrm # 数据库名称
+    tables:
+      - name: month_archives # 表名称
+        mode: 1
+      - name: month_archives_2 # 表名称
+        mode: 1
+      - name: month_archives_of_city # 表名称
+        mode: 1

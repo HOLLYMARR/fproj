@@ -1,0 +1,14 @@
+---
+proto: Http
+server:
+  #  - 开发测试环境
+  #  - host: cas.sit.sf-express.com
+  #    生产环境
+  - host: cas.sf-express.com
+ctimeout: 500
+rtimeout: 3000
+retry_times: 1
+input_format: JSON
+req-header:
+  - "Content-Type: application/json"
+...

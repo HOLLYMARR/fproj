@@ -1,0 +1,18 @@
+---
+proto: Http
+#service:
+server:
+  - host: sfecp.int.sfdc.com.cn:1080
+#测试
+#  - host: sfecp.intsit.sfdc.com.cn:1080
+#  ip:
+#  port:
+ctimeout: 1000
+rtimeout: 2000
+retry_times: 1
+
+input_format: json
+req-header:
+  - "content-type:application/json"
+output_format: json
+...

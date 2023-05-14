@@ -1,0 +1,15 @@
+---
+proto: Http
+service: fem.osz.svc
+#server:
+#  ip: 10.188.40.122
+#  port: 8097
+ctimeout: 2000
+rtimeout: 2000
+retry_times: 1
+input_format: json
+output_format: json
+req-header:
+  - "content-type:application/json"
+
+...

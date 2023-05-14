@@ -1,0 +1,16 @@
+---
+# 运作助手 -- 对接顺丰云API市场
+proto: Http
+server:
+  - host: http://itao-api-core.int.sfcloud.local:1080
+#  - ip: 127.0.0.1
+#    port: 1080
+ctimeout: 3000
+rtimeout: 3000
+wtimeout: 3000
+timeout:  3000
+input_format: json
+output_format: json
+req-header:
+  - "content-type:application/json"
+...

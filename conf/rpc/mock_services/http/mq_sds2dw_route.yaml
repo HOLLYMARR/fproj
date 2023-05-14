@@ -1,0 +1,10 @@
+---
+proto: Http
+service: proxy-sds2dw-route.sds.svc
+ctimeout: 1500
+rtimeout: 1500
+retry_times: 1
+input_format: json
+req-header:
+  - "content-type:application/json"
+...

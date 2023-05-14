@@ -1,0 +1,17 @@
+---
+proto: Mysql
+#service: cat.myproxy.svc
+service: sds-tidb.tidb.svc
+#server:
+#- ip: 10.188.36.42
+#  port: 5439
+ctimeout: 500
+rtimeout: 20000
+wtimeout: 20000
+timeout:  20000
+default_db: tidb_esrp
+username: tidb_esrp_w
+password: 6wHUotRtdN
+retry_times: 1
+is_auto_recon: true
+...

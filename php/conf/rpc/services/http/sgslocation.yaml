@@ -1,0 +1,15 @@
+---
+proto: Http
+server:
+  #测试
+  #  - host: int-common-eos-gsp-core-apis.sit.sf-express.com:8000
+  #生产
+  - host: int-common-eos-gsp-core-apis.int.sfcloud.local:8000
+ctimeout: 2000
+rtimeout: 2000
+retry_times: 1
+input_format: json
+req-header:
+  - "content-type:application/json"
+  
+...

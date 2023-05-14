@@ -1,0 +1,12 @@
+---
+proto: Http
+server:
+  - host: sfecp.int.sfdc.com.cn:1080
+ctimeout: 3000
+rtimeout: 2000
+retry_times: 3
+input_format: file
+output_format: json
+proxy_conf: sds_proxy
+http_proxy: http
+...

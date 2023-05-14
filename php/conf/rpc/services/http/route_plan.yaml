@@ -1,0 +1,14 @@
+---
+#路径规划 接口配置
+proto: Http
+server:
+  - host: 10.188.4.166:8207
+#  ip:
+#  port:
+ctimeout: 500
+rtimeout: 9000
+retry_times: 1
+input_format: json
+req-header:
+  - "content-type:application/json"
+...

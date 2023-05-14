@@ -1,0 +1,16 @@
+---
+proto: Http
+server:
+  #测试
+  #  - host: 10.188.40.109:9124
+  #生产 单独建立一个配置文件，超时设置小点
+  - host: int-common-eos-gsp-core-apis.int.sfcloud.local:8000
+ctimeout: 1000
+rtimeout: 1000
+retry_times: 1
+input_format: json
+req-header:
+  - "content-type:application/json"
+
+...
+

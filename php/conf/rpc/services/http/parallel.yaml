@@ -1,0 +1,12 @@
+---
+# sds机器集群
+proto: Http
+service: sds-online.lta.svc
+
+ctimeout: 1000
+rtimeout: 7000
+wtimeout: 5000
+timeout: 5000
+output_format: json
+
+...
